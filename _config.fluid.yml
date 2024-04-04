@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: https://smms.app/image/CJ4q2MymLDXleaI
+favicon: https://s2.loli.net/2024/04/04/CJ4q2MymLDXleaI.png
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: https://smms.app/image/CJ4q2MymLDXleaI
+apple_touch_icon: https://s2.loli.net/2024/04/04/CJ4q2MymLDXleaI.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -421,7 +421,7 @@ footer:
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>本网页由Fluid主题创建</span></a>
-    <br><a href="mailto:service@anson.fun" target="_blank" rel="nofollow noopener"><span>Copyright © 2024 AnsonTeam All Rights Reserved. 安心团队 版权所有</span></a></br>
+    <br><a href="mailto:support@ansonteam.org" target="_blank" rel="nofollow noopener"><span>Copyright © 2024 AnsonTeam All Rights Reserved. 安心团队 版权所有</span></a></br>
   '
 
   # 展示网站的 PV、UV 统计数
@@ -950,15 +950,14 @@ about:
   banner_img: https://s2.loli.net/2024/03/27/dFfMYERHP13J79j.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  avatar: https://smms.app/image/CJ4q2MymLDXleaI
+  avatar: https://s2.loli.net/2024/04/04/CJ4q2MymLDXleaI.png
   name: "AnsonTeam"
   intro: "一个团队"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-mail", link: "mailto:support@ansonteam.org", tip: "邮箱" }
+    - { class: "iconfont icon-", qrcode: "" }
 
 
 #---------------------------
@@ -1027,7 +1026,7 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: '<hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：AnsonTeam</li><li>简介：安心团队官方网站</li><li>链接：https://ansonteam.org</li><li>图片：https://smms.app/image/CJ4q2MymLDXleaI</li></ul>'
+    content: '<hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：AnsonTeam</li><li>简介：安心团队官方网站</li><li>链接：https://ansonteam.org</li><li>图片：https://s2.loli.net/2024/04/04/CJ4q2MymLDXleaI.png</li></ul>'
 
   # 评论插件
   # Comment plugin
