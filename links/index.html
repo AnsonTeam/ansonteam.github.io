@@ -17,8 +17,8 @@
   <meta name="keywords" content="">
   
     <meta property="og:type" content="website">
-<meta property="og:title" content="归档">
-<meta property="og:url" content="https://ansonteam.org/archives/index.html">
+<meta property="og:title" content="友链">
+<meta property="og:url" content="https://ansonteam.org/links/index.html">
 <meta property="og:site_name" content="AnsonTeam">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Anson">
@@ -26,7 +26,7 @@
   
   
   
-  <title>归档 - AnsonTeam</title>
+  <title>友链 - AnsonTeam</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -225,7 +225,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="归档"></span>
+            <span id="subtitle" data-typed-text="友情链接"></span>
           
         </div>
 
@@ -252,23 +252,68 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="list-group">
-  <p class="h4">共计 1 篇文章</p>
-  <hr>
-  
+<div class="row links">
   
     
-      
-      <p class="h5">2024</p>
-    
-    <a href="/hello-template/" class="list-group-item list-group-item-action">
-      <time>04-04</time>
-      <div class="list-group-item-title">Hexo Template</div>
-    </a>
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <a href="https://anson.asia/" class="card-body hover-with-bg" target="_blank" rel="noopener">
+        <div class="card-content">
+          
+            <div class="link-avatar my-auto">
+              <img src="https://s2.loli.net/2024/03/18/qWmPAHUN2EeKxcr.png" srcset="/img/loading.gif" lazyload alt="安心的主页"
+                   onerror="this.onerror=null; this.src=this.srcset='/img/avatar.png'"/>
+            </div>
+          
+          <div class="link-text">
+            <div class="link-title">安心的主页</div>
+            <div class="link-intro">安心的主页，带你去我的所有地方</div>
+          </div>
+        </div>
+      </a>
+    </div>
   
+    
+    
 </div>
 
 
+  <!-- Custom -->
+  <div class="custom mx-auto">
+    <hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：AnsonTeam</li><li>简介：安心团队官方网站</li><li>链接：https://ansonteam.org</li><li>图片：https://smms.app/image/CJ4q2MymLDXleaI</li></ul>
+  </div>
+
+
+
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="waline"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createCssLink('https://cdn.staticfile.org/waline/2.15.5/waline.min.css')
+      Fluid.utils.createScript('https://cdn.staticfile.org/waline/2.15.5/waline.min.js', function() {
+        var options = Object.assign(
+          {"serverURL":"pl.ansonteam.org","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10},
+          {
+            el: '#waline',
+            path: window.location.pathname
+          }
+        )
+        Waline.init(options);
+        Fluid.utils.waitElementVisible('#waline .vcontent', () => {
+          var imgSelector = '#waline .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
 
 
 
